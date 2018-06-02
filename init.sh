@@ -8,5 +8,5 @@ cat authorized_keys > /etc/ssh/sshd_config
 cat issue > /etc/issue
 service ssh start
 cat /dev/null > ~/.bash_history && history -c
-rm init.sh
+rm init.sh authorized_keys issue
 reboot -f
