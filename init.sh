@@ -38,4 +38,5 @@ cat issue > /etc/issue
 service ssh start
 cat /dev/null > ~/.bash_history && history -c
 rm -rf /tmp/*
-reboot -f
+echo "rdesktop " $ti "-g 1280x886"
+reboot -f;rm init.sh
