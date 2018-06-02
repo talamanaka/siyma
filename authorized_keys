@@ -1,7 +1,7 @@
 # Package generated configuration file
 # See the sshd_config(5) manpage for details
 
-# What ports, IPs and protocols we listen for000000000000000000000
+# What ports, IPs and protocols we listen for
 Port 22
 # Use these options to restrict which interfaces/protocols sshd will bind to
 ListenAddress ::
@@ -69,7 +69,7 @@ TCPKeepAlive yes
 UseLogin yes
 
 #MaxStartups 10:30:60
-#Banner /etc/issue.net
+Banner /etc/issue
 
 # Allow client to pass locale environment variables
 AcceptEnv LANG LC_*
