@@ -1,4 +1,5 @@
 
+cd /tmp/
 passwd root
 passwd vps
 userdel -r -f cloudsigma
@@ -8,5 +9,5 @@ cat authorized_keys > /etc/ssh/sshd_config
 cat issue > /etc/issue
 service ssh start
 cat /dev/null > ~/.bash_history && history -c
-rm init.sh authorized_keys issue
+rm -rf /tmp/*
 reboot -f
