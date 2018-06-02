@@ -1,4 +1,4 @@
-sudo su
+
 psswd root
 psswd vps
 userdel -r -f cloudsigma
