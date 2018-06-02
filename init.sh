@@ -1,0 +1,2 @@
+
+userdel -r -f cloudsigma
