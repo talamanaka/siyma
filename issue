@@ -1,0 +1,16 @@
+                                Welcome to CRACKERS VIP !
+
+        Root account login is restricted, please use default credentials which
+        can be found in the Install notes. Install notes can be viewed in the
+        Webapp, choose Storage -> Drives, click on the OS image and then
+        Install Notes. Under "Initial Credentials" you will find the username
+        and the password. For root privileges use "sudo" command.
+        For example:
+
+        sudo su - Change to root user until the session is closed
+
+        When SSH key is used for authentication, local login (VNC) is disabled.
+        If you want to use local login, log in through SSH and type:
+
+        sudo passwd vps
+
